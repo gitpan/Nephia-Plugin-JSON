@@ -27,7 +27,7 @@ no_index:
 provides:
   Nephia::Plugin::JSON:
     file: lib/Nephia/Plugin/JSON.pm
-    version: 0.01
+    version: 0.02
 requires:
   JSON: 0
   Nephia: 0.80
@@ -36,4 +36,4 @@ resources:
   bugtracker: https://github.com/nephia/Nephia-Plugin-JSON/issues
   homepage: https://github.com/nephia/Nephia-Plugin-JSON
   repository: git://github.com/nephia/Nephia-Plugin-JSON
-version: 0.01
+version: 0.02
