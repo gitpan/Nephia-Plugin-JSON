@@ -9,7 +9,7 @@ configure_requires:
   CPAN::Meta::Prereqs: 0
   Module::Build: 0.38
 dynamic_config: 0
-generated_by: 'Minilla/v0.6.5, CPAN::Meta::Converter version 2.132510'
+generated_by: 'Minilla/v0.9.0, CPAN::Meta::Converter version 2.132140'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -24,10 +24,11 @@ no_index:
     - eg
     - examples
     - author
+    - builder
 provides:
   Nephia::Plugin::JSON:
     file: lib/Nephia/Plugin/JSON.pm
-    version: 0.02
+    version: 0.03
 requires:
   JSON: 0
   Nephia: 0.80
@@ -35,5 +36,5 @@ requires:
 resources:
   bugtracker: https://github.com/nephia/Nephia-Plugin-JSON/issues
   homepage: https://github.com/nephia/Nephia-Plugin-JSON
-  repository: git://github.com/nephia/Nephia-Plugin-JSON
-version: 0.02
+  repository: git://github.com/nephia/Nephia-Plugin-JSON.git
+version: 0.03

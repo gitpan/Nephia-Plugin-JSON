@@ -7,5 +7,6 @@ cpanfile
 lib/Nephia/Plugin/JSON.pm
 t/00_compile.t
 t/01_basic.t
+t/02_x_api_status_header.t
 META.yml
 MANIFEST

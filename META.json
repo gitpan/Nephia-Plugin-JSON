@@ -4,8 +4,10 @@
       "ytnobody <ytnobody@gmail.com>"
    ],
    "dynamic_config" : 0,
-   "generated_by" : "Minilla/v0.6.5",
-   "license" : "perl_5",
+   "generated_by" : "Minilla/v0.9.0",
+   "license" : [
+      "perl_5"
+   ],
    "meta-spec" : {
       "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
       "version" : "2"
@@ -19,7 +21,8 @@
          "share",
          "eg",
          "examples",
-         "author"
+         "author",
+         "builder"
       ]
    },
    "prereqs" : {
@@ -54,7 +57,7 @@
    "provides" : {
       "Nephia::Plugin::JSON" : {
          "file" : "lib/Nephia/Plugin/JSON.pm",
-         "version" : "0.02"
+         "version" : "0.03"
       }
    },
    "release_status" : "stable",
@@ -64,9 +67,9 @@
       },
       "homepage" : "https://github.com/nephia/Nephia-Plugin-JSON",
       "repository" : {
-         "url" : "git://github.com/nephia/Nephia-Plugin-JSON",
+         "url" : "git://github.com/nephia/Nephia-Plugin-JSON.git",
          "web" : "https://github.com/nephia/Nephia-Plugin-JSON"
       }
    },
-   "version" : "0.02"
+   "version" : "0.03"
 }
